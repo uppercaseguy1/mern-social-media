@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import {serverURL} from "../../helper/helper.jsx";
+import {serverURL} from "../helper/helper.jsx";
 
 const UserImage = ({ image, size = "60px" }) => {
   return (

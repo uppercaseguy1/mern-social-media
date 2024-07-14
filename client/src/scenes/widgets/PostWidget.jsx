@@ -11,7 +11,7 @@ import WidgetWrapper from "components/WidgetWrapper";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setPost } from "state";
-import {serverURL} from "../../../helper/helper.jsx";
+import {serverURL} from "../../helper/helper.jsx";
 
 const PostWidget = ({
   postId,

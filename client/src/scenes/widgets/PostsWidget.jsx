@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setPosts } from "state";
 import PostWidget from "./PostWidget";
-import {serverURL} from "../../../helper/helper.jsx";
+import {serverURL} from "../../helper/helper.jsx";
 
 const PostsWidget = ({ userId, isProfile = false }) => {
   const dispatch = useDispatch();

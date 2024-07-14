@@ -15,7 +15,7 @@ import { useDispatch } from "react-redux";
 import { setLogin } from "state";
 import Dropzone from "react-dropzone";
 import FlexBetween from "components/FlexBetween";
-import {serverURL} from "../../../helper/helper.jsx";
+import {serverURL} from "../../helper/helper.jsx";
 
 const registerSchema = yup.object().shape({
   firstName: yup.string().required("required"),

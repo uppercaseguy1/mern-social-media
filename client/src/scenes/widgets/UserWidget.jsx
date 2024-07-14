@@ -11,7 +11,7 @@ import WidgetWrapper from "components/WidgetWrapper";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import {serverURL} from "../../../helper/helper.jsx";
+import {serverURL} from "../../helper/helper.jsx";
 
 const UserWidget = ({ userId, picturePath }) => {
   const [user, setUser] = useState(null);
