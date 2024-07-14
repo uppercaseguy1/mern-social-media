@@ -1,1 +1,1 @@
-export const serverURL="https://localhost:3001"
+export const serverURL="https://mern-social-backend-5l2u.onrender.com"
